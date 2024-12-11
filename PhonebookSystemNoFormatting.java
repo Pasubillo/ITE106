@@ -13,7 +13,7 @@ public class CalculatorNiRod extends JFrame implements ActionListener {
 	private String operator;
 	private boolean done;
 	
-	public CalculatorNiMark() {
+	public CalculatorNiRod() {
 		//===================GUI Main Frame======================//
 		setTitle("Kalkyuleytor");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -187,6 +187,6 @@ public class CalculatorNiRod extends JFrame implements ActionListener {
 		writer.write("");
 		writer.close();
 		
-		new CalculatorNiMark();
+		new CalculatorNiRod();
 	}
 }
